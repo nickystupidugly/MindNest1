@@ -1,0 +1,73 @@
+
+.app {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c3c7cb;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: linear-gradient(to bottom, #e0e0e0, #c0c0c0);
+  border-right: 2px solid #808080;
+  padding: 1rem;
+  box-shadow: inset -1px 0 #fff;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  background: #f5f5f5;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover {
+  background: #e0f0ff;
+  border-color: #0078d7;
+  color: #000;
+}
+
+.panel {
+  flex-grow: 1;
+  padding: 2rem;
+  background: #ffffff;
+  color: #000000;
+  border-left: 2px solid #a0a0a0;
+  box-shadow: inset 1px 1px 2px #fff, inset -1px -1px 2px #a0a0a0;
+}
+
+.panel h3 {
+  font-size: 1.1rem;
+  color: #003366;
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+.panel ul {
+  padding-left: 1.2rem;
+}
+
+.panel a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.panel a:hover {
+  text-decoration: underline;
+}
